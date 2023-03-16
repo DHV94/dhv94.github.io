@@ -21,5 +21,37 @@ body {
     background-color: #AA77FF;
     text-align: center;
     padding: 3%;
-    color: white    ;
-} 
+    color: white;
+}
+
+.cuerpo {
+    margin: 5% 20% 0% 20%;
+    border: 2px black solid;
+    border-radius: 1em;
+    height: 450px;
+    display: flex;
+}
+
+.part1 {
+    background-color: white;
+    flex-grow: 1;
+    width: 50%;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+}
+
+.part2 {
+    background-color: #97DEFF;
+    text-align: center;
+    flex-grow: 1;
+    width: 50%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
