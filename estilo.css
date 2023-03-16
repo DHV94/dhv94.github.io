@@ -1,4 +1,25 @@
+/* Paleta Colores*/
+/*
+    Primary Color --> #AA77FF
+    Secundary Color --> #C9EEFF
+    Other Colors --> #97DEFF
+                 --> #62CDFF
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
+body {
+    background-color: #C9EEFF;
+}
+
+.navbar {
+    background-color: #AA77FF;
+    text-align: center;
+    padding: 3%;
+    color: white    ;
+} 
