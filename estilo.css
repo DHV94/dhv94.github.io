@@ -31,6 +31,7 @@ body {
     border-radius: 1em;
     height: 450px;
     display: flex;
+    position: absolute;
 }
 
 .part1 {
@@ -79,4 +80,24 @@ body {
     display: flex;
     align-items: center;
     padding: 4%;
+}
+
+#button1 {
+    display: block;
+}
+
+#caja {
+    z-index: 1;
+}
+
+#caja2 {
+    z-index: 0;
+}
+
+#caja3 {
+    z-index: 0;
+}
+
+#caja4 {
+    z-index: 0;
 }
