@@ -27,7 +27,6 @@ body {
 
 .cuerpo {
     margin: 5% 20% 0% 20%;
-    border: 2px black solid;
     border-radius: 1em;
     height: 450px;
     display: flex;
@@ -67,6 +66,11 @@ body {
     border-radius: 1em;
     width: 50%;
     font-size: 16px;
+    border: none;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 30px 2px #97DEFF;
 }
 
 
@@ -82,8 +86,8 @@ body {
     padding: 4%;
     gap: 5%;
     justify-content: center;
+    
 }
-
 
 .foto img {
     width: 350px;
