@@ -154,3 +154,7 @@ body {
         flex-direction: column;
     }
 }
+
+li{
+    padding-bottom: 1em;
+}
