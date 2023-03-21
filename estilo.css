@@ -16,6 +16,7 @@
 
 body {
     background-color: #C9EEFF;
+    height: 100%;
 }
 
 .navbar {
@@ -25,10 +26,18 @@ body {
     color: white;
 }
 
+.caja {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+}
+
 .cuerpo {
-    margin: 5% 20% 0% 20%;
     border-radius: 1em;
-    height: 450px;
+    height: 70%;
+    width: 70%;
     display: flex;
     position: absolute;
 }
@@ -70,9 +79,10 @@ body {
 }
 
 .button:hover {
+    transition: 0.7s;
     box-shadow: 2px 2px 30px 2px #97DEFF;
+    background-color: #419aff;
 }
-
 
 .part2 {
     background-color: #97DEFF;
@@ -84,14 +94,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 4%;
-    gap: 5%;
+    gap: 8%;
     justify-content: center;
     
 }
 
 .foto img {
-    width: 350px;
-    height: 200px;
+    width: 550px;
+    height: 350px;
     margin: 0 auto;
     border-radius: 1em;
 }
@@ -105,13 +115,42 @@ body {
 }
 
 #caja2 {
-    z-index: 0;
+    z-index: 2;
+    display: none;
 }
 
 #caja3 {
-    z-index: 0;
+    z-index: 3;
+    display: none;
 }
 
 #caja4 {
-    z-index: 0;
+    z-index: 4;
+    display: none;
+}
+
+@media screen and (max-width: 610px) {
+
+    .cuerpo {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70%;
+        height: 1200px;
+    }
+
+    .part1 {
+        border-bottom-left-radius: 0em;
+        border-top-right-radius: 1em;
+        height: 50%;
+    }
+
+    .part2 {
+        border-top-right-radius: 0em;
+        border-bottom-left-radius: 1em;
+        height: 50%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
 }
