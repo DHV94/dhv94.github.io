@@ -98,21 +98,8 @@ body {
     justify-content: center;
 }
 
-#caja3 .lista {
-    text-decoration: none;
-    list-style: none;
-    font-size: 18px;
-}
-
-#caja4 .foto img {
-    width: 400px;
-    height: 430px;
-    margin: 0 auto;
-    border-radius: 1em;
-}
-
-#caja5 .foto img {
-    width: 300px;
+.foto img {
+    width: 520px;
     height: 430px;
     margin: 0 auto;
     border-radius: 1em;
@@ -138,11 +125,6 @@ body {
 
 #caja4 {
     z-index: 4;
-    display: none;
-}
-
-#caja5 {
-    z-index: 5;
     display: none;
 }
 

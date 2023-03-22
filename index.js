@@ -10,10 +10,6 @@ function siguienteDiapositiva3() {
     document.getElementById("caja4").style.display = "flex";
 }
 
-function siguienteDiapositiva4() {
-    document.getElementById("caja5").style.display = 'flex'
-}
-
 function anteriorDiapositiva2() {
     document.getElementById("caja2").style.display = "none";
 }
@@ -24,10 +20,6 @@ function anteriorDiapositiva3() {
 
 function anteriorDiapositiva4() {
     document.getElementById("caja4").style.display = "none";
-}
-
-function anteriorDiapositiva5() {
-    document.getElementById("caja5").style.display = 'none'
 }
 
 
