@@ -6,21 +6,21 @@
                  --> #62CDFF
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #C9EEFF;
+    background-color: #c9eeff;
     height: 100%;
 }
 
 .navbar {
-    background-color: #AA77FF;
+    background-color: #aa77ff;
     text-align: center;
     padding: 3%;
     color: white;
@@ -70,7 +70,7 @@ body {
 }
 
 .button {
-    background-color: #62CDFF;
+    background-color: #62cdff;
     height: 35%;
     border-radius: 1em;
     width: 50%;
@@ -80,12 +80,12 @@ body {
 
 .button:hover {
     transition: 0.7s;
-    box-shadow: 2px 2px 30px 2px #97DEFF;
+    box-shadow: 2px 2px 30px 2px #97deff;
     background-color: #419aff;
 }
 
 .part2 {
-    background-color: #97DEFF;
+    background-color: #97deff;
     text-align: center;
     flex-grow: 1;
     width: 50%;
@@ -96,7 +96,6 @@ body {
     padding: 4%;
     gap: 8%;
     justify-content: center;
-    
 }
 
 #caja3 .lista {
@@ -148,7 +147,6 @@ body {
 }
 
 @media screen and (max-width: 610px) {
-
     .cuerpo {
         flex-direction: column;
         margin: 0 auto;
@@ -173,6 +171,6 @@ body {
     }
 }
 
-li{
+li {
     padding-bottom: 1em;
 }
